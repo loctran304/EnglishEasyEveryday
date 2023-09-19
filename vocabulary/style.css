@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+.filter {
+    padding-top: 100px;
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to right bottom, #346ddd, #be76dd);
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+table {
+    z-index: 2;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+
+}
+
+td,th {
+    padding: 15px 20px;
+
+
+}
+.dataTables_length{
+    visibility: hidden;
+
+}
+th{
+    background-color: #ba68c8;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+
+}
+
+.paginate_button{
+    position: relative;
+    font-family: inherit;
+    margin: 2px;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    border-radius: 0.8em;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.input .control-sm{
+    width: 200px;
+    height: 200px;
+}
+label{
+    font-weight: bold;
+}
+.vvvv{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: #ba68c8;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 3px 5px 20px #480653;
+}
